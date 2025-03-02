@@ -1,5 +1,7 @@
 package method.q10;
+
 import java.util.Arrays;
+
 public class EvenNumber {
 
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class EvenNumber {
 			if (i % 2 == 0) {
 				even++;
 			}
-		} 
+		}
 		return even;
 	}
 }

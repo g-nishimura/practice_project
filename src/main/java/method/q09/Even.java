@@ -6,7 +6,7 @@ public class Even {
 		// TODO 自動生成されたメソッド・スタブ
 		int n = 5;
 		String txt = "";
-		if(checkEven(n)){
+		if (checkEven(n)) {
 			txt = n + "は偶数です。";
 		} else {
 			txt = n + "は奇数です。";
@@ -15,7 +15,7 @@ public class Even {
 	}
 
 	public static boolean checkEven(int n) {
-		if(n % 2 == 0) {
+		if (n % 2 == 0) {
 			return true;
 		} else {
 			return false;
