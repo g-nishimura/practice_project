@@ -4,11 +4,11 @@ public class Introduce {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		String message = "私の名前は山田です。";
-		selfIntroduce(message);
+		String name = "山田";
+		selfIntroduce(name);
 	}
 
-	public static void selfIntroduce(String message) {
-		System.out.println(message);
+	public static void selfIntroduce(String name) {
+		System.out.println("私の名前は" + name + "です。");
 	}
 }

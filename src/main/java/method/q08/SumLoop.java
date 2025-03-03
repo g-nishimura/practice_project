@@ -13,8 +13,8 @@ public class SumLoop {
 
 	public static int sumLoop(int min, int max) {
 		int sum = 0;
-		for (int i = min; i <= max; i++) {
-			sum += i;
+		for (int num = min; num <= max; num++) {
+			sum += num;
 		}
 		return sum;
 	}

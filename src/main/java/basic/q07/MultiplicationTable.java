@@ -5,13 +5,13 @@ public class MultiplicationTable {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		String text = "";
-		for (int i = 1; i <= 9; i++) {
-			for (int j = 1; j <= 9; j++) {
-				int m = i * j;
-				if (m < 10) {
-					text += " " + m + " ";
+		for (int  row= 1; row <= 9; row++) {
+			for (int column = 1; column <= 9; column++) {
+				int multi = row * column;
+				if (multi < 10) {
+					text += " " + multi + " ";
 				} else {
-					text += m + " ";
+					text += multi + " ";
 				}
 			}
 			text += "\n";

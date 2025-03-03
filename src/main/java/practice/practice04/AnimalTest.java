@@ -10,7 +10,7 @@ public class AnimalTest {
 		dog.showInfo();
 		dog.cry();
 
-		System.out.println("---------");
+		System.out.println("--------------------");
 
 		sparrow.showInfo();
 		sparrow.cry();

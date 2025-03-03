@@ -12,8 +12,8 @@ public class EvenNumber {
 
 	public static int getEvenNumbers(int[] array) {
 		int even = 0;
-		for (int i : array) {
-			if (i % 2 == 0) {
+		for (int num : array) {
+			if (num % 2 == 0) {
 				even++;
 			}
 		}
