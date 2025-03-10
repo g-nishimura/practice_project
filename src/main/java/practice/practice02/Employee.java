@@ -1,8 +1,8 @@
 package practice.practice02;
 
 public class Employee {
-	String name;
-	int age;
+	private String name;
+	private int age;
 
 	public String getName() {
 		return this.name;

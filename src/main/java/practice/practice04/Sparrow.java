@@ -1,9 +1,9 @@
 package practice.practice04;
 
 public class Sparrow extends Animal {
-	boolean canFly;
+	private boolean canFly;
 
-	Sparrow(String name, int age, boolean canFly) {
+	public Sparrow(String name, int age, boolean canFly) {
 		super(name, age);
 		this.canFly = canFly;
 	}

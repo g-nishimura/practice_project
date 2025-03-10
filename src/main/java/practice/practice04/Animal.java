@@ -1,10 +1,10 @@
 package practice.practice04;
 
 public class Animal {
-	String name;
-	int age;
+	private String name;
+	private int age;
 
-	Animal(String name, int age) {
+	public Animal(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}

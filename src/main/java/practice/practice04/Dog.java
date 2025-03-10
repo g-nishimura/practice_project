@@ -1,9 +1,9 @@
 package practice.practice04;
 
 public class Dog extends Animal {
-	String furColor;
+	private String furColor;
 
-	Dog(String name, int age, String furColor) {
+	public Dog(String name, int age, String furColor) {
 		super(name, age);
 		this.furColor = furColor;
 	}

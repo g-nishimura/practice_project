@@ -1,8 +1,8 @@
 package practice.practice01;
 
 public class Employee {
-	String name;
-	int age;
+	public String name;
+	public int age;
 
 	public void showinfo() {
 		System.out.println("氏名：" + this.name);

@@ -1,10 +1,10 @@
 package practice.practice03;
 
 public class Employee {
-	String name;
-	int age;
+	private String name;
+	private int age;
 
-	Employee(String name, int age) {
+	public Employee(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
